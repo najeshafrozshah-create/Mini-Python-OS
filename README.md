@@ -22,9 +22,7 @@ This project is designed to simulate a basic operating-system–style menu inter
 
 ## Project Structure
 
-
-
-
+```bash
 System/
 │
 ├── main.py # Entry point, authentication & control flow
@@ -33,7 +31,7 @@ System/
 ├── colors.py # ANSI color codes for terminal styling
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## How It Works
