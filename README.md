@@ -58,11 +58,14 @@ System/
 
 ## How to Run
 ```bash
+open terminal 
 python main.py
+```
 
-
-
+## Contribution
+```bash
 Author
 
 Developed by Najesh Afroz Shah
 (Student | Python Learner)
+```
