@@ -17,4 +17,5 @@ def menu_screen():
     print(r"""        1. Calculator""")
     print(r"""        2. Show Time""")
     print(r"""        3. Show Date""")
-    print(r"""        4. Exit""")
+    print(r"""        4. Notepad""")
+    print(r"""        5. Exit""")

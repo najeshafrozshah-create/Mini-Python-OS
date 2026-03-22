@@ -23,23 +23,29 @@ while True:
 while True:
             print("\n")
             menu_screen()
-            choice=int(input("Choose an option: \n"))
-            if choice==1:
-                clear_screen()
-                calculator()
-            elif choice==2:
-                clear_screen()
-                show_time()
-            elif choice==3:
-                clear_screen()
-                show_date()
-            elif choice==4:
-                clear_screen()
-                print("exiting system...") # exits the system
-                break
-            else:
-                print("Invalid option!")
-                continue
-
-        
-   
+            try:
+                 choice=int(input("Choose an option: \n"))
+                 if choice==1:
+                     clear_screen()
+                     calculator()
+                 elif choice==2:
+                     clear_screen()
+                     show_time()
+                 elif choice==3:
+                     clear_screen()
+                     show_date()
+                 elif choice == 4:
+                      clear_screen()
+                      notepad()
+                 elif choice==5:
+                     clear_screen()
+                     print("exiting system...") # exits the system
+                     break
+                 else:
+                     clear_screen()
+                     print("Invalid option!")
+                     continue
+            except ValueError:
+                 clear_screen()
+                 print("Enter a number! ")
+                 continue
